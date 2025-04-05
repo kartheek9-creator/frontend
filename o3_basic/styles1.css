@@ -1,0 +1,24 @@
+
+.nav-continer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+img{
+    margin: 10px 0px;
+}
+
+nav >p{
+     text-decoration: underline;
+     color: #6262b2;
+}
+
+nav>p:hover {
+    color: #830f0f;
+    padding: 2px;
+    margin: 10px;
+    cursor: pointer;
+}
+
