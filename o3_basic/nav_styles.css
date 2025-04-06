@@ -1,0 +1,45 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+    padding: 10px;
+}
+
+.nav{
+    list-style-type: none;
+}
+
+ul>li{
+    color: #ffffff;
+}
+
+li:hover{
+    cursor: pointer;
+    color: blue;
+    position: relative;
+}
+
+li:hover::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: yellow;
+    transform: scaleX(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+li:hover::after{
+    transform: scaleX(1);
+} 
