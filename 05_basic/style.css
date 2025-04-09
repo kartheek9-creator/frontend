@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container{
+    background-color: red;
+    height: 100px;
+}
+
+.nav .nav-list{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+a,li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.login {
+    height: 100vh;
+    border: 2px solid #cc124a;
+    width: 200px;
+    height: 200px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
